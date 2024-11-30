@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/e4/41/7e/e4417e7e03a669df2e4c167cd672b394.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url(https://p.turbosquid.com/ts-thumb/6J/TLRlSo/Qw/preview2/png/1684946003/1920x1080/fit_q87/f0548922d83154c7108ffca38de43add3add38f4/preview2.jpg);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 90px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(90%);
+    flex-direction: column;
+    display: flex;
+    gap:5px;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size:24px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0,0.5);
+    margin-bottom: 60px;
+}
+label{
+    color: rgb(255, 255, 255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background-color: rgb(255, 255,255,0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+button{
+    background: rgb(45,126,231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+    color: white;
+}
